@@ -168,7 +168,7 @@
     <script type="text/javascript">
         $(document).ready(function() {
             $.ajax({
-                url: "http://www.xgssy.cn/uploadpicshow/post",
+                url: "http://localhost/",
                 type: "POST",
                 success: function(data) {
                     var datajson = JSON.parse(data);
@@ -193,7 +193,7 @@
                 if (($(window).scrollTop() + $(window).height()) == $(document).height()) {
                     b++;
                     $.ajax({
-                        url: "http://www.xgssy.cn/uploadpicshow/scrollpost",
+                        url: "http://localhost/",
                         type: "POST",
                         data: {
                             skip: b * 16
