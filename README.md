@@ -7,5 +7,5 @@ QQ+微信：306419886，请注明： GITHUB个人图片网站
 把项目放到PHP环境下即可，配置好数据库、运行项目给的SQL文件、CI的base_url、view视图里的AJAX地址替换成你的地址即可。</br>
 #<h1>功能</h1></br>
 目前只有登录和图片上传，上传之后会自动渲染到页面去</br>
-PS：注意上传的imgtypemark标记，每组图组都要有自己唯一的标记、重复的话页面会错乱、点击图片跳转不到对应的图组！切记！
-<a href="http://www.xgssy.cn">DEMO</a>
+PS：注意上传的imgtypemark标记，每组图组都要有自己唯一的标记、重复的话页面会错乱、点击图片跳转不到对应的图组！切记！</br>
+前端页面展示<a href="http://www.xgssy.cn">DEMO</a>
